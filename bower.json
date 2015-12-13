@@ -1,0 +1,22 @@
+{
+  "name": "ApplicationTemplate",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Sami Touil <sami.touil@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-material": "~0.11.4",
+    "angular-route": "~1.4.8",
+    "angular-material-icons": "~0.6.0"
+  }
+}

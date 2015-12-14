@@ -1,4 +1,4 @@
-import {Component, Public} from "../Components/Component";
+import {Component, BoundProperty} from "../Components/Component";
 
 @Component({
     module: "App",
@@ -9,6 +9,6 @@ import {Component, Public} from "../Components/Component";
 </md-toolbar>`
 })
 export class ApplicationToolbar {
-    @Public
+    @BoundProperty
     name: string;
 }
